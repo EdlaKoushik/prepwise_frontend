@@ -10,7 +10,7 @@ export default function ProtectedRoute({ children }) {
   useEffect(() => {
     const checkAuth = async () => {
       try {
-        await axios.get("http://localhost:5001/api/auth/check-auth", { withCredentials: true });
+        await axios.get("https://prepwise-backend.vercel.app/api/auth/check-auth", { withCredentials: true });
         setIsAuthenticated(true);
       } catch {
         setIsAuthenticated(false);
