@@ -15,7 +15,7 @@ const Sign_in = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:5001/api/auth/sign-in",
+        "https://prepwise-backend.vercel.app/api/auth/sign-in",
         { email, password },
         { withCredentials: true }
       );
