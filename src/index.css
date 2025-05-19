@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+/* Update asset paths for images used in your project */
+/* Example usage in CSS or JSX:
+   background-image: url('./assets/robot.png');
+   <img src={require('./assets/robot.png')} />
+*/
+
+/* For robot, star, and calendar, use these paths: */
+/*
+  src: url('./assets/robot.png');
+  src: url('./assets/star.svg');
+  src: url('./assets/calendar.svg');
+*/
+
+/* Remove or update references to react.svg if not used, as it does not exist. */
