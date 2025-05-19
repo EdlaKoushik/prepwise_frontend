@@ -51,7 +51,7 @@ export default function DashboardPage() {
   useEffect(() => {
     const checkAuth = async () => {
       try {
-        await axios.get("http://localhost:5001/api/auth/check-auth", {
+        await axios.get("https://prepwise-backend.vercel.app/api/auth/check-auth, {
           withCredentials: true,
         });
       } catch {
